@@ -22,12 +22,12 @@ See *Flix Carousel* in action.
 
 ### Installing
 
-To install via CDN, add this to the bottom of your `<header>` tag. Hosted by [RawGit](https://rawgit.com/).
+To install via CDN, add this to the bottom of your `<head>` tag. Hosted by [RawGit](https://rawgit.com/).
 ```
 <link href="https://cdn.rawgit.com/anthonykrivonos/flix-carousel/65556d56/src/carousel.css" rel="stylesheet">
 ```
 
-To install manually, download this repository, add the contents to the root of your project, and link the source CSS at the bottom of your `<header>` tag.
+To install manually, download this repository, add the contents to the root of your project, and link the source CSS at the bottom of your `<head>` tag.
 ```
 <link href="src/carousel.css" rel="stylesheet">
 ```
@@ -48,7 +48,9 @@ Add the following to another CSS file linked to your project, or in a `<style>` 
 
 ### Changing Growth Factor
 `<1:` Shrink
+
 `1 :` Normal
+
 `>1:` Grow
 ```
 :root {
@@ -66,8 +68,11 @@ The fade opacity is the opacity of tiles that are not currently hovered, while a
 ### Changing Transition Speed
 `X:`
 `1` for 1s transition
+
 `2` for 0.5s transition
+
 `3` for 0.3s transition
+
 ```
 .carousel-tile {
       transition: var(--carousel-transition-X) !important;
