@@ -38,15 +38,18 @@ End with an example of getting some data out of the system or using it for a lit
 
 Add the following to another CSS file linked to your project, or in a `<style>` tag within your HTML file.
 
-### Changing Tile Height/Width
+### Changing Tile Spacing/Height/Width
 ```
 :root {
     --carousel-tile-spacing: ---px !important;
+    --carousel-tile-height:  ---px !important;
     --carousel-tile-width:   ---px !important;
 }
 ```
 
 ### Changing Growth Factor
+The growth factor is the rate at which a tile grows when hovered over.
+
 `<1:` Shrink
 
 `1 :` Normal
