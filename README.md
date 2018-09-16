@@ -22,9 +22,9 @@ See *Flix Carousel* in action.
 
 ### Installing
 
-To install via CDN, add this to the bottom of your `<header>` tag.
+To install via CDN, add this to the bottom of your `<header>` tag. Hosted by [RawGit](https://rawgit.com/).
 ```
-TBA
+<link href="https://cdn.rawgit.com/anthonykrivonos/flix-carousel/65556d56/src/carousel.css" rel="stylesheet">
 ```
 
 To install manually, download this repository, add the contents to the root of your project, and link the source CSS at the bottom of your `<header>` tag.
