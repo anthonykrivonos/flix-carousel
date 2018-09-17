@@ -64,6 +64,16 @@
       cursor: hand;
 }
 
+/* Add Extra Margin to Last Carousel Tile */
+.carousel-tile:last-of-type {
+      margin-right: calc(var(--carousel-tile-width)/2);
+}
+
+/* Ensure All Elements Inside Tile are Block */
+.carousel-tile * {
+      display: block;
+}
+
 /* Carousel Row on Hover */
 .carousel-row:hover {
       -webkit-transform: translate3d(var(--carousel-offset-left), 0, 0);
